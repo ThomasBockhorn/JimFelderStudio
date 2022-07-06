@@ -5,6 +5,10 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
 
+/**
+ * @property mixed $painting_id
+ * @property mixed $filename
+ */
 class UpdatePaintingImageRequest extends FormRequest
 {
     /**

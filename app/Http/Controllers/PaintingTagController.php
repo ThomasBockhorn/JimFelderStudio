@@ -31,18 +31,18 @@ class PaintingTagController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StorePaintingTagRequest  $request
+     * @param StorePaintingTagRequest $request
      * @return \Illuminate\Http\Response
      */
     public function store(StorePaintingTagRequest $request)
     {
-        //
+        PaintingTag::create($request->all());
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\PaintingTag  $paintingTag
+     * @param PaintingTag $paintingTag
      * @return \Illuminate\Http\Response
      */
     public function show(PaintingTag $paintingTag)
@@ -53,7 +53,7 @@ class PaintingTagController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\PaintingTag  $paintingTag
+     * @param PaintingTag $paintingTag
      * @return \Illuminate\Http\Response
      */
     public function edit(PaintingTag $paintingTag)
@@ -64,23 +64,25 @@ class PaintingTagController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdatePaintingTagRequest  $request
-     * @param  \App\Models\PaintingTag  $paintingTag
+     * @param UpdatePaintingTagRequest $request
+     * @param PaintingTag $paintingTag
      * @return \Illuminate\Http\Response
      */
     public function update(UpdatePaintingTagRequest $request, PaintingTag $paintingTag)
     {
-        //
+        $paintingTag->update($request->all());
+
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\PaintingTag  $paintingTag
+     * @param PaintingTag $paintingTag
      * @return \Illuminate\Http\Response
      */
     public function destroy(PaintingTag $paintingTag)
     {
-        //
+        $paintingTag->delete();
+
     }
 }

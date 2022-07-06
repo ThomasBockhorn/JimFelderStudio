@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StorePaintingImageRequest;
 use App\Http\Requests\UpdatePaintingImageRequest;
 use App\Models\PaintingImage;
+use App\Services\ImageServices;
 
 class PaintingImageController extends Controller
 {
@@ -31,12 +32,13 @@ class PaintingImageController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StorePaintingImageRequest  $request
-     * @return \Illuminate\Http\Response
+     * @param  StorePaintingImageRequest  $request
+     * @return void
      */
-    public function store(StorePaintingImageRequest $request)
+    public function store(StorePaintingImageRequest $request, PaintingImage $paintingImage)
     {
-        //
+        ImageServices::ImageAddService($request, $paintingImage);
+
     }
 
     /**
@@ -64,23 +66,25 @@ class PaintingImageController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdatePaintingImageRequest  $request
+     * @param  UpdatePaintingImageRequest  $request
      * @param  \App\Models\PaintingImage  $paintingImage
      * @return \Illuminate\Http\Response
      */
     public function update(UpdatePaintingImageRequest $request, PaintingImage $paintingImage)
     {
-        //
+        ImageServices::ImageUpdateService($request, $paintingImage);
+
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\PaintingImage  $paintingImage
-     * @return \Illuminate\Http\Response
+     * @param $id
+     * @return void
      */
-    public function destroy(PaintingImage $paintingImage)
+    public function destroy($id)
     {
-        //
+        ImageServices::ImageDeleteService($id);
+
     }
 }
