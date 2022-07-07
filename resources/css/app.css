@@ -22,3 +22,34 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
+
+/** picture animation **/
+.container{
+    perspective: 1000px;
+}
+
+.slider {
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 4s linear infinite;
+    border: 10px solid #fff;
+}
+
+.slide {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.slide.visible-picture {
+    opacity: 1;
+}
+
+.slide img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

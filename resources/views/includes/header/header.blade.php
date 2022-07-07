@@ -1,8 +1,8 @@
-<header class="flex flex-col content-center justify-center mt-2 fixed w-full z-auto bg-gray-100	">
+<header class="flex flex-col content-center justify-center pt-2 sticky top-0 w-full z-auto bg-gray-100	">
     <div class="logo m-auto">
         <img class="w-auto" src="{{ url('/storage/images/FelderStudioLogo.png') }}" alt="FelderStudio logo">
     </div>
-    <h2 class="text-center mt-5 text-5xl">Artist</h2>
+    <h2 class="text-center  text-5xl">Artist</h2>
     <nav class="w-full mt-12">
         <ul class="flex place-content-around mx-56">
             <li><a class="text-2xl" href="">Home</a></li>
