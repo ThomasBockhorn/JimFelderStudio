@@ -51,9 +51,9 @@ hr.style-seven:before {
 }
 
 #slider > *:nth-child(4){
-    animation-delay: 8s;
+    animation-delay: 12s;
 }
 
 #slider > *:nth-child(5){
-    animation-delay: 8s;
+    animation-delay: 16s;
 }
