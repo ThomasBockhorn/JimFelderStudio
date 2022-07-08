@@ -12,7 +12,7 @@ hr.style-seven {
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
-hr.style-seven:before { /* Not really supposed to work, but does */
+hr.style-seven:before {
     display: block;
     content: "";
     height: 30px;
@@ -23,33 +23,37 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     border-radius: 20px;
 }
 
-/** picture animation **/
-.container{
-    perspective: 1000px;
+/********Carousel***********/
+#slider > * {
+    visibility: hidden;
+    animation: 12s autoplay infinite
 }
 
-.slider {
-    position: relative;
-    transform-style: preserve-3d;
-    animation: rotate 4s linear infinite;
-    border: 10px solid #fff;
+@keyframes autoplay {
+    0% {
+        visibility: visible;
+    }
+    33.33% {
+        visibility: hidden;
+    }
 }
 
-.slide {
-    opacity: 0;
-    top: 0;
-    left: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+#slider > *:nth-child(1) {
+    animation-delay: 0s;
 }
 
-.slide.visible-picture {
-    opacity: 1;
+#slider > *:nth-child(2) {
+    animation-delay: 4s;
 }
 
-.slide img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+#slider > *:nth-child(3){
+    animation-delay: 8s;
+}
+
+#slider > *:nth-child(4){
+    animation-delay: 8s;
+}
+
+#slider > *:nth-child(5){
+    animation-delay: 8s;
 }
