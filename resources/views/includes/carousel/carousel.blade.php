@@ -4,16 +4,16 @@
             <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/BlackwellSwamp.jpg') }}" alt="" />
         </div>
         <div class="slide absolute">
-            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/BurgreenFarmPurpleClover.jpg') }}" alt="" />
+            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/RedBudAndWisteria.jpg') }}" alt="" />
         </div>
         <div class="slide absolute">
-            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/CottonField.jpg') }}" alt="">
+            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/GreatBlueHeron.jpg') }}" alt="">
         </div>
         <div class="slide absolute">
-            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/CottonOnCountyLineRoad.jpg') }}" alt="">
+            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/BrownHeadedNutHatch.jpg') }}" alt="">
         </div>
         <div class="slide absolute">
-            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/FamilyGraveyard.jpg') }}" alt="">
+            <img class="w-full object-cover h-[316px]" src="{{ url('storage/images/MooresvilleCottonOperation.jpg') }}" alt="">
         </div>
     </div>
 </div>
