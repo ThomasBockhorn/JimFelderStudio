@@ -1,4 +1,4 @@
-<header class="flex flex-col content-center justify-center pt-2 sticky top-0 w-full z-auto bg-gray-100	">
+<header class="flex flex-col content-center justify-center pt-2 sticky top-0 w-full bg-gray-100 z-50">
     <div class="logo m-auto">
         <img class="w-auto" src="{{ url('/storage/images/FelderStudioLogo.png') }}" alt="FelderStudio logo">
     </div>
