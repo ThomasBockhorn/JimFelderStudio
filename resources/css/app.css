@@ -26,7 +26,7 @@ hr.style-seven:before {
 /********Carousel***********/
 #slider > * {
     visibility: hidden;
-    animation: 12s autoplay infinite
+    animation: 24s autoplay infinite
 }
 
 @keyframes autoplay {
