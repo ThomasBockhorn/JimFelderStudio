@@ -6,5 +6,6 @@
 
     @include('includes.biography.biography')
 
+    @include('includes.contact.contact')
 
     @stop
