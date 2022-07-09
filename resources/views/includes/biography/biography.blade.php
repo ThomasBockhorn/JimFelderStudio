@@ -1,4 +1,4 @@
-<section id="biography" class="container-fluid m-5 p-5 bg-gray-600 snap-start pt-52 pb-56">
+<section id="biography" class="container-fluid m-5 p-5 bg-gray-600 snap-start snap-always pt-52 pb-56">
     <h2 class="text-center text-white text-6xl m-5 p-5">Biography</h2>
     <p class="text-white mx-56 mb-5 text-xl">I am an artist living and working in Madison, Alabama.</p>
     <p class="text-white mx-56 mb-5 text-xl">My family moved from Mobile to Huntsville when, in 1956, my father was hired
