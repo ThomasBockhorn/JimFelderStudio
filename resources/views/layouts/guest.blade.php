@@ -17,7 +17,7 @@
     </head>
     <body class="bg-gray-100">
     @include('includes.header.header')
-        <main>
+        <main class="snap-y">
             @yield('content')
        </main>
     @include('includes.footer.footer')

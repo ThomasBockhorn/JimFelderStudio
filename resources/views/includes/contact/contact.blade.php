@@ -1,5 +1,5 @@
-<section class="container-fluid m-5 p-5">
-    <h3 class="text-center text-6xl m-5 p-5 mb-5 pb-5">Contact Info</h3>
+<section id="contact" class="container-fluid m-5 p-5 snap-start pt-52 pb-56">
+    <h2 class="text-center text-6xl m-5 p-5">Contact Info</h2>
     <div class="grid grid-cols-2 justify-center mx-auto">
         <div class="h-80 w-96 border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
             <img class="object-fill w-full h-full absolute" src="{{ url('storage/images/OvergrownBrownsFerryRoad.jpg') }}" alt="Over grown house on Browns Ferry Road">
