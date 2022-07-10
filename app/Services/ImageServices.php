@@ -12,17 +12,21 @@ class ImageServices
 
     /**
      * This service adds an image to the database and storage
-     * @param UpdatePaintingImageRequest $request
+     * @param StorePaintingImageRequest $request
      * @param PaintingImage $paintingImage
      * @return void
      */
     public static function ImageAddService(StorePaintingImageRequest $request, PaintingImage $paintingImage): void
     {
-        $paintingImage->filename = Storage::putFile('public/images', $request->filename);
+        if (!empty($request->filename && $request->painting_id)) {
 
-        $paintingImage->painting_id = $request->painting_id;
+            $paintingImage->filename = Storage::putFile('public/images', $request->filename);
 
-        $paintingImage->save();
+            $paintingImage->painting_id = $request->painting_id;
+
+            $paintingImage->save();
+        }
+
     }
 
 
@@ -34,15 +38,19 @@ class ImageServices
      */
     public static function ImageUpdateService(UpdatePaintingImageRequest $request, PaintingImage $paintingImage): void
     {
-        $paintingImageUpdate = $paintingImage->findOrFail($paintingImage->id);
+        if (!empty($paintingImage->id)) {
 
-        Storage::delete($paintingImageUpdate->filename);
+            $paintingImageUpdate = PaintingImage::findOrFail($paintingImage->id);
 
-        $paintingImageUpdate->filename = Storage::putFile('public/images/', $request->filename);
+            Storage::delete($paintingImageUpdate->filename);
 
-        $paintingImageUpdate->painting_id = $request->painting_id;
+            $paintingImageUpdate->filename = Storage::putFile('public/images/', $request->filename);
 
-        $paintingImageUpdate->save();
+            $paintingImageUpdate->painting_id = $request->painting_id;
+
+            $paintingImageUpdate->save();
+        }
+
     }
 
 
@@ -53,10 +61,14 @@ class ImageServices
      */
     public static function ImageDeleteService($id): void
     {
-        $paintingImageEntry = PaintingImage::findOrFail($id);
+        if (!empty($id)) {
 
-        Storage::delete($paintingImageEntry->filename);
+            $paintingImageEntry = PaintingImage::findOrFail($id);
 
-        $paintingImageEntry->delete();
+            Storage::delete($paintingImageEntry->filename);
+
+            $paintingImageEntry->delete();
+        }
+
     }
 }
