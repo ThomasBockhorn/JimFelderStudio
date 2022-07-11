@@ -15,7 +15,7 @@ class PaintingController extends Controller
      */
     public function index()
     {
-        //
+        //This is the index file
     }
 
     /**
@@ -31,7 +31,7 @@ class PaintingController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StorePaintingRequest  $request
+     * @param \App\Http\Requests\StorePaintingRequest $request
      * @return \Illuminate\Http\Response
      */
     public function store(StorePaintingRequest $request)
@@ -44,7 +44,7 @@ class PaintingController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Painting  $painting
+     * @param \App\Models\Painting $painting
      * @return \Illuminate\Http\Response
      */
     public function show(Painting $painting)
@@ -55,7 +55,7 @@ class PaintingController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Painting  $painting
+     * @param \App\Models\Painting $painting
      * @return \Illuminate\Http\Response
      */
     public function edit(Painting $painting)
@@ -66,8 +66,8 @@ class PaintingController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdatePaintingRequest  $request
-     * @param  \App\Models\Painting  $painting
+     * @param \App\Http\Requests\UpdatePaintingRequest $request
+     * @param \App\Models\Painting $painting
      * @return \Illuminate\Http\Response
      */
     public function update(UpdatePaintingRequest $request, Painting $painting)
@@ -79,7 +79,7 @@ class PaintingController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Painting  $painting
+     * @param \App\Models\Painting $painting
      * @return \Illuminate\Http\Response
      */
     public function destroy(Painting $painting)
