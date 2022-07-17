@@ -3,7 +3,7 @@
         <!-- Picture 1 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/BlackwellSwampBlueHole.jpg') }}"
                  alt = "Blackwell Swamp Blue Hole">
         </figure>
@@ -20,7 +20,7 @@
         <!-- Picture 2 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/BlackwellSwamp.jpg') }}"
                  alt = "Blackwell Swamp">
         </figure>
@@ -36,7 +36,7 @@
         <!-- Picture 3 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/BrownHeadedNutHatch.jpg') }}"
                  alt = "Brown Headed Nut Hatch">
         </figure>
@@ -53,7 +53,7 @@
         <!-- Picture 4 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/BurgreenFarmRedClover.jpg') }}"
                  alt = "Burgreen Farm Red Clover">
         </figure>
@@ -69,7 +69,7 @@
         <!-- Picture 5 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/CottonFieldneartheTennesseeRiverMadisonCounty.jpg') }}"
                  alt = "Cotton Field near the Tennessee River, Madison County">
         </figure>
@@ -86,7 +86,7 @@
         <!-- Picture 6 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/CottonOperationonCountyLineRoad.jpg') }}"
                  alt = "Cotton Operation on County Line Road">
         </figure>
@@ -102,7 +102,7 @@
         <!-- Picture 7 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/DublinParkTreesinFog.jpg') }}"
                  alt = "Trees in Dublin Park">
         </figure>
@@ -118,7 +118,7 @@
         <!-- Picture 8 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/Easterntowhee.jpg') }}"
                  alt = "Eastern Towhee">
         </figure>
@@ -134,7 +134,7 @@
         <!-- Picture 9 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/FamilyGraveyardonRivertonRoad.jpg') }}"
                  alt = "Family Graveyeard on Riverton Road">
         </figure>
@@ -150,7 +150,7 @@
         <!-- Picture 10 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-fill w-full h-full block absolute"
                  src = "{{ url('/images/GreatBlueHeron.jpg') }}"
                  alt = "Great Blue Heron">
         </figure>
@@ -166,7 +166,7 @@
         <!-- Picture 11 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/HuntingClubonRivertonRoad.jpg') }}"
                  alt = "Hunting Club on Riverton Road">
         </figure>
@@ -182,7 +182,7 @@
         <!-- Picture 12 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/MooresvilleCottonOperation.jpg') }}"
                  alt = "Mooresville Cotton Operation">
         </figure>
@@ -198,7 +198,7 @@
         <!-- Picture 13 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/OvergrownBrownsFerryRoad.jpg') }}"
                  alt = "Overgrown Place on Browns Ferry Road">
         </figure>
@@ -214,7 +214,7 @@
         <!-- Picture 14 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/RedbudAndWisteria.jpg') }}"
                  alt = "Redbud and Wisteria, Bella Mina">
         </figure>
@@ -230,7 +230,7 @@
         <!-- Picture 15 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/RoundBalesGilesCounty.jpg') }}"
                  alt = "Round Bales">
         </figure>
@@ -246,7 +246,7 @@
         <!-- Picture 16 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/SharecropperRivertonRoadMadisonCounty.jpg') }}"
                  alt = "Sharecropper Riverton Road Madison County">
         </figure>
@@ -262,7 +262,7 @@
         <!-- Picture 17 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/ShedonBrownsFerryRoad.jpg') }}"
                  alt = "Shed on Browns Ferry Road">
         </figure>
@@ -278,7 +278,7 @@
         <!-- Picture 18 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/SipseyRiverneartherapids.jpg') }}"
                  alt = "Sipsey River near the Rapids">
         </figure>
@@ -295,7 +295,7 @@
         <!-- Picture 19 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/WhitebreastedNuthatch.jpg') }}"
                  alt = "White Breasted Nuthatch">
         </figure>
@@ -311,7 +311,7 @@
         <!-- Picture 20 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/YellowbreastedChat.jpg') }}"
                  alt = "Yellow Breasted Chat">
         </figure>
@@ -327,7 +327,7 @@
         <!-- Picture 21 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/MockingbirdUnfinishedPlaceholder.jpg') }}"
                  alt = "Mockingbird Unfinished">
         </figure>
@@ -343,7 +343,7 @@
         <!-- Picture 22 -->
         <figure
             class = "h-96 w-full border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto ">
-            <img class = "object-fill w-full h-full absolute"
+            <img class = "object-cover w-full h-full absolute block"
                  src = "{{ url('/images/SipseyRiverRapidsunfinishedplaceholder.jpg') }}"
                  alt = "Sipsey River Rapids">
         </figure>
