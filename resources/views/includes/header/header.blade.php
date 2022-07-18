@@ -6,7 +6,7 @@
     <nav class = "w-full mt-12">
         <ul class = "flex place-content-around mx-56">
             <li><a class = "text-2xl" href = "/">Home</a></li>
-            <li><a class = "text-2xl" href = "/#biography">Biography</a></li>
+            <li><a class = "text-2xl" href = "/biography">Biography</a></li>
             <li><a class = "text-2xl" href = "/gallery">Gallery</a></li>
             <li><a class = "text-2xl" href = "/#contact">Contact</a></li>
         </ul>

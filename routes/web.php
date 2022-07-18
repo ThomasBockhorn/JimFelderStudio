@@ -17,16 +17,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/gallery', function() {
+Route::get('/gallery', function () {
     return view('gallery');
+});
+
+Route::get('/biography', function () {
+    return view('introduction');
 });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::resource('/paintings',\App\Http\Controllers\PaintingController::class)->middleware(['auth']);
+Route::resource('/paintings', \App\Http\Controllers\PaintingController::class)->middleware(['auth']);
 Route::resource('/painting-images', \App\Http\Controllers\PaintingImageController::class)->middleware(['auth']);
 Route::resource('/painting-tag', \App\Http\Controllers\PaintingTagController::class)->middleware(['auth']);
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

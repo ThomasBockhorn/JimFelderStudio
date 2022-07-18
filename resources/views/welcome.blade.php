@@ -2,10 +2,8 @@
 
 @section('content')
 
-    @include('includes.carousel.carousel')
-
-    @include('includes.biography.biography')
+    @include('includes.selfimage.selfimage')
 
     @include('includes.contact.contact')
 
-    @stop
+@stop
