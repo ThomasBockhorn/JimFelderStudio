@@ -30,9 +30,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
-<body class = "bg-gray-100">
+<body class = "bg-gray-100 w-full">
 @include('includes.header.header')
-<main class = "snap-y snap-mandatory">
+<main class = "snap-y snap-mandatory w-full">
     @yield('content')
 </main>
 @include('includes.footer.footer')

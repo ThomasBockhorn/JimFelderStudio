@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 /* Flaired edges, by Tomas Theunissen */
 
 hr.style-seven {
@@ -44,8 +53,24 @@ h2 {
 }
 
 @media screen and (max-width: 639px) {
+    /** header border **/
     hr {
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    /** self-image **/
+    #self-image {
+        width: 50%;
+        height: 50%;
+    }
+
+    /** logo **/
+    #logo {
+        width: 60%;
+        height: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
+
