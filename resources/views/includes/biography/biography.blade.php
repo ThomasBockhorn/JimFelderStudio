@@ -1,5 +1,5 @@
-<section id = "biography" class = "m-5 p-5 snap-start snap-always pt-52 pb-56">
-    <h2 class = "text-center text-black text-6xl m-5 p-5">Biography</h2>
+<section id = "biography" class = "m-5 p-5 snap-start snap-always  pb-56">
+    <h2 class = "text-center text-6xl m-5 p-5">Biography</h2>
     <p class = "mx-56 mb-5 text-xl pt-10">I am an artist living and working in Madison, Alabama.</p>
     <p class = " mx-56 mb-5 text-xl">
         My family moved from Mobile to Huntsville when, in 1956, my father was hired
