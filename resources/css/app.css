@@ -42,3 +42,10 @@ hr.style-seven:before {
 h2 {
     color: #A7A5A5;
 }
+
+@media screen and (max-width: 639px) {
+    hr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
