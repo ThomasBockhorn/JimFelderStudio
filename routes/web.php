@@ -25,6 +25,10 @@ Route::get('/biography', function () {
     return view('introduction');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

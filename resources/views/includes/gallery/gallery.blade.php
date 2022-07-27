@@ -1,7 +1,7 @@
-<section>
-    <h2 class = "text-center text-6xl m-5 p-5">Gallery</h2>
+<section id = "gallery" class = "m-5 p-5 snap-start snap-always">
+    <h2 class = "text-center text-4xl mb-10">Gallery</h2>
     <div class = "flex justify-center">
-        <div class = "grid grid-cols-3 gap-10 m-16">
+        <div class = "grid md:grid-cols-3 sm:grid-cols-1 gap-10 ml-16 mr-16">
             <!-- Picture 1 -->
             <figure>
                 <img

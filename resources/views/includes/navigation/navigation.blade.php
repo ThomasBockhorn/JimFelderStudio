@@ -42,7 +42,7 @@
                     </a>
                 </li>
                 <li class = "flex">
-                    <a class = "nav-link" href = "/#contact">
+                    <a class = "nav-link" href = "/contact">
                         <span>Contact</span>
                     </a>
                 </li>

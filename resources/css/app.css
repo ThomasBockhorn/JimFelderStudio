@@ -52,25 +52,26 @@ h2 {
     color: #A7A5A5;
 }
 
-@media screen and (max-width: 639px) {
-    /** header border **/
-    hr {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    /** self-image **/
-    #self-image {
-        width: 50%;
-        height: 50%;
-    }
+@media screen and (max-width: 768px) {
 
     /** logo **/
     #logo {
-        width: 60%;
-        height: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    /** logo **/
+    #logo {
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
+
 

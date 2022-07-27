@@ -4,6 +4,4 @@
 
     @include('includes.selfimage.selfimage')
 
-    @include('includes.contact.contact')
-
 @stop

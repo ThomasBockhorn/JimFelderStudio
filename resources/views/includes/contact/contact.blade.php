@@ -1,15 +1,15 @@
-<section id = "contact" class = " m-5 p-5 snap-always snap-start pt-52 pb-56">
-    <h2 class = "text-center text-6xl m-5 p-5">Contact Info</h2>
-    <div class = "grid grid-cols-2 justify-center mx-auto pt-10">
+<section id = "contact" class = "m-5 p-5 snap-start snap-always">
+    <h2 class = "text-4xl text-center mb-10">Contact Info</h2>
+    <div class = "grid md:grid-cols-2 sm:grid-cols-1 justify-center gap-10 mx-auto">
         <div
-            class = "h-80 w-96 border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
-            <img class = "object-fill w-full h-full absolute"
+            class = "border-black border-2 shadow-xl rounded shadow-gray-400 relative overflow-hidden mx-auto">
+            <img id = "contact-image" class = "object-fill"
                  src = "{{ url('storage/images/OvergrownBrownsFerryRoad.jpg') }}"
                  alt = "Over grown house on Browns Ferry Road">
         </div>
         <div>
             <h4 class = "mb-5 text-2xl font-bold">Purchasing work from Jim Felder:</h4>
-            <p class = "text-xl pr-20">
+            <p class = "text-xl">
                 The paintings on this site are classified as Available (work that is for sale) in the
                 notes that accompany each image. If you are interested an available work, please let me
                 know of your

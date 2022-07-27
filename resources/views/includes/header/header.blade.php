@@ -3,6 +3,6 @@
     <div class = "logo m-auto mt-20">
         <img id = "logo" src = "{{ url('/storage/images/FelderStudioLogo.png') }}" alt = "FelderStudio logo">
     </div>
-    <h2 class = "text-center md:text-4xl sm:text-3xl">Jim Felder, Artist</h2>
+    <h2 id = "sub-header" class = "text-center text-3xl">Jim Felder, Artist</h2>
     <hr class = "mt-20 style-seven sm:mx-32">
 </header>
