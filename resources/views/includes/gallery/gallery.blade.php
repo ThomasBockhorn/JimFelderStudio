@@ -5,7 +5,7 @@
             <!-- Picture 1 -->
             <figure>
                 <img
-                    src = "{{ url('/images/BlackwellSwampBlueHole.jpg') }}"
+                    src = "{{ url('images/BlackwellSwampBlueHole.jpg') }}"
                     alt = "Blackwell Swamp Blue Hole">
                 <figcaption>
                     <p>Title: <em>Blackwell Swamp Blue Hole</em></p>
@@ -308,7 +308,7 @@
             <!-- Picture 21 -->
             <figure>
                 <img
-                    src = "{{ url('/images/SipseyRiverRapidsunfinishedplaceholder.jpg') }}"
+                    src = "{{ url('/images/SipseyRiverRapid.jpg') }}"
                     alt = "Sipsey River Rapids">
                 <figcaption>
                     <p>Title: <em>Sipsey River Rapids</em></p>
