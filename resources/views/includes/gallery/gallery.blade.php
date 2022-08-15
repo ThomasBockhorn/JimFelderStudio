@@ -319,6 +319,51 @@
                     <p>Notes:</p>
                 </figcaption>
             </figure>
+
+            <!-- Picture 22 -->
+            <figure>
+                <img
+                    src = "{{ url('/images/DublinParkMorningWalk.jpg') }}"
+                    alt = "Dublin Park Morning Walk">
+                <figcaption>
+                    <p>Title: <em>Dublin Park Morning Walk</em></p>
+                    <p>Size: 11 x 16</p>
+                    <p>Medium: Oil on panel</p>
+                    <p>Location: Madison, Alabama</p>
+                    <p>Status: Unframed. Available.</p>
+                    <p>Notes:</p>
+                </figcaption>
+            </figure>
+
+            <!-- Picture 23 -->
+            <figure>
+                <img
+                    src = "{{ url('/images/MosesChapelRoad.jpg') }}"
+                    alt = "Pines in a Field on Moses Chapel Road">
+                <figcaption>
+                    <p>Title: <em>Pines in a Field on Moses Chapel Road</em></p>
+                    <p>Size: 15 x 24</p>
+                    <p>Medium: Oil on panel</p>
+                    <p>Location: Madison, Alabama</p>
+                    <p>Status: Unframed. Available.</p>
+                    <p>Notes:</p>
+                </figcaption>
+            </figure>
+
+            <!-- Picture 24 -->
+            <figure>
+                <img
+                    src = "{{ url('/images/DublinParkFierySunset.jpg') }}"
+                    alt = "Dublin Park Fiery Sunset">
+                <figcaption>
+                    <p>Title: <em>Dublin Park Fiery Sunset</em></p>
+                    <p>Size: 8 x 24</p>
+                    <p>Medium: Oil on panel</p>
+                    <p>Location: Madison, Alabama</p>
+                    <p>Status: Unframed. Available.</p>
+                    <p>Notes:</p>
+                </figcaption>
+            </figure>
         </div>
     </div>
 </section>
